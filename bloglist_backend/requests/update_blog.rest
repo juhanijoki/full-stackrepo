@@ -1,0 +1,15 @@
+PUT  http://localhost:3003/api/blogs/61224bca6171164e44cfdfe4
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRpbW8iLCJpZCI6IjYxMjIxODQyZGVlYmNkNDg4NGQ3ZTIwMiIsImlhdCI6MTYzMDA2MDYxOCwiZXhwIjoxNjMwMDY0MjE4fQ.uQq_q-I4ouudUuKCNg9ToUnY31DO3E-AJN15vEZOp9E
+
+{
+    "title": "Seikkailuja Etelä-Afrikassa",
+    "author": "Timo Paasikunnas",
+    "url": "https://afrseikkailut.fi/",
+    "likes": 105,
+    "user": {
+      "username": "Timo",
+      "name": "Timo Paasikunnas",
+      "id": "61221842deebcd4884d7e202"
+    }
+}

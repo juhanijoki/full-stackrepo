@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkthcHRlZW5pIEgiLCJpZCI6IjYxMjIzOTM3OTRmMTFjNTVkYzcxZDhhYyIsImlhdCI6MTYzMDUwMzE5NCwiZXhwIjoxNjMwNTA2Nzk0fQ.vW8hryBSBmH6rxrxtjZA_k5QNYZUpomSmsaSZDmJmVs
+
+{
+    "title": "Haddockin tarinat",
+    "author": "Kapteeni Haddock",
+    "url": "https://haddockstories.fi/",
+    "likes": 285
+}
